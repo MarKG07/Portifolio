@@ -1,2 +1,2 @@
 # Portifolio
- Modelo de portifolio criado pelos cursos de HTML e css da Alura (Haverão futuras modificações)
+ Modelo de portifolio criado pelos cursos de HTML e CSS da Alura (Haverão futuras modificações)
