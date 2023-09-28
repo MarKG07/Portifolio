@@ -21,13 +21,29 @@ body {
     /* Não permite que elementos filhos saiam do elemento pai body */
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
 .imagem__perfil  {
     border-radius: 16px;
     border: 5px solid var(--primary-color);
 }
 
 .apresentacao {
-    padding: 10% 10%;
+    padding: 5% 10%;
     display: flex;
     align-items: center;
     /*se alinham a si msm no centro*/
