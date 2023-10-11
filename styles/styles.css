@@ -50,6 +50,7 @@ body {
     /*se alinham a si msm no centro*/
     justify-content: space-between;
     /* se alinha de acordo com o eixo vertical */
+    gap: 82px;
 }
 
 .imagem__perfil  {
@@ -135,4 +136,20 @@ body {
     font-weight: 400;
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);
+}
+
+@media (max-width: 1024px) {
+    .cabecalho {
+        padding: 5% 0% 0% 0%;
+    }
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5% 5%;
+    }
+    .apresentacao__conteudo {
+        width: auto;
+    }
 }
