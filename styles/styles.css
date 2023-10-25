@@ -53,6 +53,7 @@ body {
     gap: 82px;
 }
 
+
 .imagem__perfil  {
     width: 50%;
     border-radius: 16px;
@@ -127,7 +128,29 @@ body {
     padding: 21.5px 0;
     border-radius: 16px;
 } */
+.apresentacao__projetos {
+    text-align: center;
+}
 
+.titulo__projetos {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    padding-bottom: 10% 0%;
+}
+
+.lista__projetos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 1.5rem;
+    padding: 5% 0%;
+}
+
+.imagens__projetos {
+    width: 30%;
+}
 .rodape {
     padding: 24px;
     text-align: center;
